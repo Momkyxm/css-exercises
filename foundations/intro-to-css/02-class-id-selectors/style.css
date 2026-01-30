@@ -1,1 +1,20 @@
-/* Add CSS Styling */
+.odd/* Add CSS Styling */
+{
+  background-color: rgb(219, 128, 138);
+  font-family: verdana, deja vu, sans-serif;
+}
+#second/* Add CSS Styling */
+{
+ color: rgb(37, 25, 199);
+  font-size: 36px;
+}
+.extra/* Add CSS Styling */
+{
+  font-size: 24px;
+}
+#fourth/* Add CSS Styling */
+{
+  background-color: rgba(26, 251, 94, 0.83);
+  font-size: 24px;
+  font-weight: bold;
+}
