@@ -47,6 +47,7 @@ input {
   margin:auto
 }
 .footer {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,4 +87,12 @@ input {
   gap: 20px;
   justify-content: flex-end;
   width: 100%;
+}
+.btn-primary {
+  padding: 5px 16px;
+  margin-left: 16px;
+}
+.btn-secondary {
+  padding: 5px 16px;
+  background: #ddd;
 }
