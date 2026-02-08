@@ -5,18 +5,28 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 72px;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
@@ -26,4 +36,12 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
 }
